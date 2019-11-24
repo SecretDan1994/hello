@@ -2,6 +2,7 @@ package main
 
 import (
     "fmt"
+    "github.com/SecretDan1994/hello/stringutil"
 )
 
 type Job struct {
@@ -30,4 +31,5 @@ func main() {
     j.SetTitle("Programmer")
     j.SetDescription("Someone who programs..")
     fmt.Printf("My job is %s and I'm %s\n", j.GetTitle(), j.GetDescription()) //Test Comment2 here.
+    fmt.Println(stringutil.Reverse("!oG ,olleH"))
 }
