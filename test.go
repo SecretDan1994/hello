@@ -29,5 +29,5 @@ func main() {
     j := Job{}
     j.SetTitle("Programmer")
     j.SetDescription("Someone who programs..")
-    fmt.Printf("My job is %s and I'm %s\n", j.GetTitle(), j.GetDescription()) //Test Comment here.
+    fmt.Printf("My job is %s and I'm %s\n", j.GetTitle(), j.GetDescription()) //Test Comment2 here.
 }
